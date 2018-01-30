@@ -1,0 +1,20 @@
+string hash functions:
+
+- CityHash
+			-64 bit -> good for small strings
+			-128 bit -> bad for small strings (NO)
+
+- Murmur 3 not murmur 2 cause its not uniform in some cases 
+
+- MD5
+
+-HashMix
+
+- Mitzenmacher 2005
+			-(http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.152.579&rank=1)
+
+-fnv1a
+
+-multiple CRC hashes
+
+-MAYBE ONLY TWO HASH FUNCTIONS (HARVARD PAPER)
