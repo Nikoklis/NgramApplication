@@ -11,6 +11,7 @@ int countNumberOfThreadsDone = 0;
 int numberOfThreadsWaiting = 0;
 int numberOfJobs = 0;
 bool Full_Queue = false;
+bool test = false;
 
 //Mutex for Thread Sync on sceduler
 pthread_mutex_t sch_mutex = PTHREAD_MUTEX_INITIALIZER;
